@@ -2,7 +2,7 @@ Olá, este projeto é de minha autoria, portanto solicito respeito pelo meu trab
   
 O objetivo deste projeto é avaliação técnica referente ao exercício descrito abaixo:  
   
-1. O Quebra-Cabeça dos Números Escondidos   
+O Quebra-Cabeça dos Números Escondidos   
 Você foi contratado para desenvolver um sistema que ajude a resolver um antigo quebra-cabeça lógico chamado "Números Escondidos".  
 O objetivo é encontrar todos os números inteiros positivos dentro de um intervalo dado [A, B] que satisfaçam as seguintes condições:  
 ● O número deve ser divisível por  C .   
