@@ -9,14 +9,14 @@ O objetivo é encontrar todos os números inteiros positivos dentro de um interv
 ● A soma dos dígitos do número deve ser maior ou igual a  D .   
 ● O número não pode conter nenhum dígito que esteja presente na lista  E .
    
-Entrada 
+Entrada   
 Dois inteiros  A  e  B  (1 <  A  <  B  < 10000) representando o intervalo.   
 - Um inteiro  C  (1 <  C  < 100) representando o divisor.  
 - Um inteiro  D  (1 <  D  < 50) representando a soma mínima dos dígitos.  
 - Uma lista de inteiros  E  (0 < tamanho(  E  ) < 10), onde cada elemento é 
 um dígito único (0-9) que não pode estar presente no número.   
   
-Saída 
+Saída   
 Retorne uma lista de todos os números que satisfazem as condições acima, ordenados em ordem crescente.   
   
 Caso de Exemplo   
@@ -28,7 +28,7 @@ int C = 5;
 int D = 5;   
 List<int> E = new List<int> { 3, 7 };   
   
-Processamento    
+Processamento      
 Intervalo: [10, 50]   
 Divisível por 5: 10, 15, 20, 25, 30, 35, 40, 45, 50   
 Soma dos dígitos > 5: 15 (1+5=6), 25 (2+5=7), 35 (3+5=8), 45 (4+5=9)   
