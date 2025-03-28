@@ -34,7 +34,7 @@ Divisível por 5: 10, 15, 20, 25, 30, 35, 40, 45, 50
 Soma dos dígitos > 5: 15 (1+5=6), 25 (2+5=7), 35 (3+5=8), 45 (4+5=9)   
 Não contém os dígitos 3 ou 7: Elimina 35 (contém 3).   
   
-Saída 
+Saída   
 List<int> resultado = new List<int> { 15, 25, 45 };  
 
 Tarefa   
