@@ -10,24 +10,19 @@ public class Program
         List<int> resultado = new List<int>();
 
         for (int i = A; i <= B; i++)
-        {
-            // Verifica se o número é divisível por C
+        {           
             if (i % C != 0)
                 continue;
-
-            // Verifica a soma dos dígitos
+           
             if (SomaDosDigitos(i) < D)
                 continue;
 
-            // Verifica se contém dígitos proibidos
             if (ContemDigitosProibidos(i, E))
                 continue;
 
-            // Se passou por todas as verificações, adiciona à lista de resultados
             resultado.Add(i);
         }
-
-        // Retorna a lista ordenada
+       
         resultado.Sort();
         return resultado;
     }
@@ -56,7 +51,6 @@ public class Program
 
     public static void Main()
     {
-        // Exemplo de uso
         int A = 10;
         int B = 50;
         int C = 5;
@@ -64,6 +58,6 @@ public class Program
         List<int> E = new List<int> { 3, 7 };
 
         List<int> resultado = EncontrarNumerosEscondidos(A, B, C, D, E);
-        Console.WriteLine(string.Join(", ", resultado)); // Saída: 15, 25, 45
+        Console.WriteLine(string.Join(", ", resultado));
     }
 }
